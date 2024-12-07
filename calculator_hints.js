@@ -10,14 +10,14 @@ Hint: We need:
       (2) the string value that is shown on the display screen
       (3) the operator (+, x, -, and ÷) that is selected.  */
 
-      let total = ________;
-      let strbuffer = ________;
-      let operator = _______;
+      let total = 0;
+      let strbuffer = "0";
+      let operator;
 
       /*  FUNC DESCRIPTION: Operator calculations. Create the in +, x, -, and ÷ operator calculations. The plus operator is done for you!
           Uncomment and fill in the blank spaces. */
       function calculations() {
-          const intBuffer = _________; // Hint: Use parseInt to convert string to integer
+          const intBuffer = parseInt(strbuffer); // Hint: Use parseInt to convert string to integer
           if (operator === "+") {
               total += intBuffer;
           }
